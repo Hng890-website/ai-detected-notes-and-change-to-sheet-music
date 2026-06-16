@@ -2,19 +2,15 @@
 <html>
 <head>
     <title>AI Sheet Music</title>
-    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<h1>🎵 AI Sheet Music</h1>
+<h1>AI Sheet Music</h1>
 
-<input
-    type="file"
-    id="audioFile"
-    accept=".mp3,.wav">
+<input type="file" id="audioFile" accept=".mp3,.wav">
 
-<button id="uploadBtn">
-    Upload
+<button onclick="uploadAudio()">
+    Convert
 </button>
 
 <p id="status"></p>
